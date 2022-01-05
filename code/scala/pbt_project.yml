@@ -2,6 +2,21 @@ name: denise.gleason
 description: User fork
 version: 1
 author: ryan.donnelly@hotmail.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: ryan.donnelly@hotmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-05 07:46:08'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Yang_Hackett:
+    name: Yang_Hackett
+    description: Really solid info
+    createdAt: '2022-01-05 07:46:09'
+    author: ryan.donnelly@hotmail.com
